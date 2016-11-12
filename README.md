@@ -8,6 +8,10 @@ For the batch setting, i.e you have a bunch of historical files you would like t
 1. does not leak much information 
 2. is useful 
 
+Doing just (1) is trivial: delete the logs, doing just (2) alone is also trivial, keep everything.
+
+What can be done in between?
+
 
 
 # Methods (and implementations)
@@ -26,6 +30,9 @@ For the batch setting, i.e you have a bunch of historical files you would like t
 
 2. How Can We Analyze Differentially-Private Synthetic Datasets? http://repository.cmu.edu/cgi/viewcontent.cgi?article=1059&context=jpc
 
-# Blog posts
+# Guides and experiences
+https://www.unece.org/fileadmin/DAM/stats/documents/ece/ces/ge.46/2011/26_Dwork-Smith.pdf
 http://blog.mrtz.org/2015/03/13/practicing-differential-privacy.html
+
+
 
