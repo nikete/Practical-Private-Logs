@@ -10,7 +10,7 @@ For the batch setting, i.e you have a bunch of historical files you would like t
 
 Doing just (1) is trivial: delete the logs, doing just (2) alone is also trivial, keep everything.
 
-What can be done in between?
+What can be done in between? We can create a derivative syntehtic dataset that is differentially private and preserves up to some order the joint marginal probability distribution over the data. We can then delete the original and keep the synthetic dataset.
 
 
 
@@ -32,6 +32,8 @@ What can be done in between?
 
 # Guides and experiences
 https://www.unece.org/fileadmin/DAM/stats/documents/ece/ces/ge.46/2011/26_Dwork-Smith.pdf
+* Shows that that 1-bit randomized response is (ln 3)/2-differentially private.
+
 http://blog.mrtz.org/2015/03/13/practicing-differential-privacy.html
 
 
