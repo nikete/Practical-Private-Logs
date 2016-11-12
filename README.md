@@ -20,7 +20,7 @@ What can be done in between? We can create a derivative syntehtic dataset that i
 * originates in google, also a production quality implementation is part of chromium http://www.chromium.org/developers/design-documents/rappor
 * a blog post covering the release https://security.googleblog.com/2014/10/learning-statistics-with-privacy-aided.html
   
-2. Exponential Mechanism with the Multiplicative Weights https://github.com/mrtzh/PrivateMultiplicativeWeights.jl  http://users.cms.caltech.edu/~katrina/papers/mwem-nips.pdf 
+2. [Exponential Mechanism with the Multiplicative Weights](https://github.com/mrtzh/PrivateMultiplicativeWeights.jl)  [paper](http://users.cms.caltech.edu/~katrina/papers/mwem-nips.pdf)
 
 3. DPSynthesizer source? ,  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4496798/
 
@@ -31,10 +31,10 @@ What can be done in between? We can create a derivative syntehtic dataset that i
 2. How Can We Analyze Differentially-Private Synthetic Datasets? http://repository.cmu.edu/cgi/viewcontent.cgi?article=1059&context=jpc
 
 # Guides and experiences
-https://www.unece.org/fileadmin/DAM/stats/documents/ece/ces/ge.46/2011/26_Dwork-Smith.pdf
+1. [Differential Privacy – A Primer for the Perplexed ](https://www.unece.org/fileadmin/DAM/stats/documents/ece/ces/ge.46/2011/26_Dwork-Smith.pdf)
 * Shows that that 1-bit randomized response is (ln 3)/2-differentially private.
 
-http://blog.mrtz.org/2015/03/13/practicing-differential-privacy.html
+2. [Towards practicing differential privacy](http://blog.mrtz.org/2015/03/13/practicing-differential-privacy.html)
 
 
 
