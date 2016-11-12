@@ -9,10 +9,9 @@ If you have a bunch of logs of behavioural data that is not anonimized, and you 
 2. is useful in learning about them
 
 Doing just (1) is trivial: just delete the logs, doing just (2) alone is also trivial, keep everything.
-What can be done in between? A derivative syntehtic dataset that is /differentially private/ and preserves up to some order the joint marginal probability distribution over the data. We can then delete the original and keep the synthetic dataset.
+What can be done to do both? Derivative syntehtic dataset that is /differentially private/ and preserves up to some order the joint marginal probability distribution over the data. We can then delete the original and keep the synthetic dataset to learn from in the future.
 
 A good guide to what is differentially private is  [Differential Privacy – A Primer for the Perplexed ](https://www.unece.org/fileadmin/DAM/stats/documents/ece/ces/ge.46/2011/26_Dwork-Smith.pdf)
-
 
 # Methods (and implementations)
 
@@ -20,7 +19,7 @@ A good guide to what is differentially private is  [Differential Privacy – A P
   * originates in google, also a production quality implementation is part of chromium http://www.chromium.org/developers/design-documents/rappor
   * a blog post covering the release https://security.googleblog.com/2014/10/learning-statistics-with-privacy-aided.html
 
-  
+
 - [Exponential Mechanism with the Multiplicative Weights](https://github.com/mrtzh/PrivateMultiplicativeWeights.jl)  [paper](http://users.cms.caltech.edu/~katrina/papers/mwem-nips.pdf)
 
 3. DPSynthesizer source? ,  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4496798/
