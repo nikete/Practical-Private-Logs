@@ -11,7 +11,9 @@ If you have a bunch of logs of behavioural data that is not anonimized, and you 
 Doing just (1) is trivial: just delete the logs, doing just (2) alone is also trivial, keep everything.
 What can be done to do both? Derivative syntehtic dataset that is differentially private and preserves up to some order the joint marginal probability distribution over the data. We can then delete the original and keep the synthetic dataset to learn from in the future.
 
-For some background: [Differential privacy: An illustrated primer](https://github.com/frankmcsherry/blog/blob/master/posts/2016-02-06.md)
+>Differential privacy guarantees that nothing that could not happen without access to your data will happen with access to your data.
+>In fact it makes a stronger quantitative guarantee: The chance that any specific thing happens (really, anything at all) with access to your data is at most a multiple X of the chance it would happen without your data. That "multiple" X is part of the guarantee and it determines how much privacy you get: a value of 1.0 would be perfect privacy (which by definition ignores your data), small values like 1.01 are pretty great, whereas values like 10.0 are less amazing but still non-trivial.
+-- [Differential privacy: An illustrated primer](https://github.com/frankmcsherry/blog/blob/master/posts/2016-02-06.md)
 
 # Methods (and implementations)
 
