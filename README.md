@@ -15,6 +15,8 @@ What can be done to do both? Derivative syntehtic dataset that is differentially
 >In fact it makes a stronger quantitative guarantee: The chance that any specific thing happens (really, anything at all) with access to your data is at most a multiple X of the chance it would happen without your data. That "multiple" X is part of the guarantee and it determines how much privacy you get: a value of 1.0 would be perfect privacy (which by definition ignores your data), small values like 1.01 are pretty great, whereas values like 10.0 are less amazing but still non-trivial.
 -- [Differential privacy: An illustrated primer](https://github.com/frankmcsherry/blog/blob/master/posts/2016-02-06.md)
 
+We proceed under the assumption of one record per user (TODO: discuss practical steps to take if multiple users).
+
 # Methods (and implementations)
 
 - RAPPOR: Privacy-Preserving Reporting Algorithms https://github.com/google/rappor https://arxiv.org/abs/1407.6981
