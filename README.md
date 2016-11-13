@@ -13,16 +13,23 @@ What can be done to do both? Derivative syntehtic dataset that is /differentiall
 
 A good guide to what is differentially private is  [Differential Privacy – A Primer for the Perplexed ](https://www.unece.org/fileadmin/DAM/stats/documents/ece/ces/ge.46/2011/26_Dwork-Smith.pdf)
 
+
+
 # Methods (and implementations)
 
+
 - RAPPOR: Privacy-Preserving Reporting Algorithms https://github.com/google/rappor https://arxiv.org/abs/1407.6981
-  * originates in google, also a production quality implementation is part of chromium http://www.chromium.org/developers/design-documents/rappor
-  * a blog post covering the release https://security.googleblog.com/2014/10/learning-statistics-with-privacy-aided.html
+ * Has the client send the data transformed so that the server never needs to see the non-anonimized version
+ * originates in google, also a production quality implementation is part of chromium http://www.chromium.org/developers/design-documents/rappor
+ * a blog post covering the release https://security.googleblog.com/2014/10/learning-statistics-with-privacy-aided.html
 
 
 - [Exponential Mechanism with the Multiplicative Weights](https://github.com/mrtzh/PrivateMultiplicativeWeights.jl)  [paper](http://users.cms.caltech.edu/~katrina/papers/mwem-nips.pdf)
+  * A simple and fairly practical scheme for the batch one off setting
 
-3. DPSynthesizer source? ,  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4496798/
+- DPSynthesizer source? ,  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4496798/
+
+
 
 # How To
 
